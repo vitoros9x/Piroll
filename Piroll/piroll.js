@@ -9,7 +9,7 @@ $('.pp-pic').slick({
 
   var arrList = document.querySelectorAll('.slick-dots li');
   for (var x = 0; x < arrList.length; x++) {
-     arrList[x].innerHTML = '<i class="fa fa-circle defaut"></i>';
+     arrList[x].innerHTML = '<i class="fa fa-circle defaut" onclick="dots('+ x + 1 + ')"></i>';
      arrList[0].innerHTML = '<i class="fa fa-circle defaut actived-size"></i>';
   }
 
