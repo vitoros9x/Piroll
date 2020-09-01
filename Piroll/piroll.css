@@ -145,13 +145,15 @@ div.layout {
     margin-bottom: 50px;
 }
 
-.actived-size {
-    font-size: 8px !important;
-}
+
 
 i.defaut {
-    font-size:5px; 
+    font-size:6px; 
     margin: 5px;
+}
+
+.actived-size {
+    font-size: 12px !important;
 }
 
 .pp > p {
@@ -181,6 +183,8 @@ i.defaut {
 
 .slick-dots li {
     margin-right: 5px;
+    display: flex;
+    align-items: center;
 }
 
 .absolute-prev {
@@ -207,9 +211,6 @@ i.defaut {
     outline: none;
 }
 
-.fa-chevron-right:before {
-
-}
 
 .ptf {
     background-color: rgb(117, 252, 222);
@@ -231,13 +232,14 @@ i.defaut {
 .info > div {
     width: 25%;
     text-align: center;
-    margin-bottom: 30px;
-    padding: 0 20px ;
+    margin-bottom: 25px;
+    padding:  0 15px;
 }
 
 .info {
     display: flex;
-    padding: 0 40px ;
+    flex-wrap: wrap;
+    padding: 0 80px;
 }
 
 .hs {
@@ -348,3 +350,16 @@ footer {
 .social {
     padding-left: 50px;
 }
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
